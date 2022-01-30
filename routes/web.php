@@ -1,6 +1,9 @@
 <?php
 
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\sp;
+
+Route::get('formdata', [sp::class, 'index']);
 
 Route::get('students', [StudentController::class, 'index']);
 Route::post('students', [StudentController::class, 'store']);

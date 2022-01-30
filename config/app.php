@@ -161,6 +161,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        shurjopayv2\ShurjopayLaravelPackage8\ShurjopayServiceProvider::class,
 
         /*
          * Package Service Providers...
